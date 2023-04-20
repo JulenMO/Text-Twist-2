@@ -2,14 +2,14 @@
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnTimed.Click
         tiempo = True
-        Me.Hide()
         frmJuego.Show()
+        Me.Close()
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles btnUntimed.Click
         tiempo = False
-        Me.Hide()
         frmJuego.Show()
+        Me.Close()
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
