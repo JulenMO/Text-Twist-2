@@ -34,8 +34,6 @@ Public Class frmJuego
         Dim labelWidth As Integer = 30
         Dim labelHeight As Integer = 20
         Dim palabraGeneradora As Palabra
-
-        Dim anchoTotal As Integer = 0
         Dim espacioEntreLabels As Integer = 10
 
         For Each palabraGeneradora In Nivel1
@@ -79,7 +77,6 @@ Public Class frmJuego
             AddHandler boton.Click, AddressOf Btn_Click
         Next
     End Sub
-
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         If tiempo = True Then

@@ -12,7 +12,6 @@ Module JuegoGlobal
         Return True
     End Function
 
-
     Dim palabra1 As New Palabra("camote", "Tubérculo comestible de América Central y México.")
     Dim palabra2 As New Palabra("cometa", "Cuerpo celeste compuesto de hielo y polvo que describe una órbita elíptica alrededor del Sol.")
     Dim palabra3 As New Palabra("acote", "Conjunto de ramas de la vid, después de cortar los racimos.")
@@ -44,9 +43,5 @@ Module JuegoGlobal
     Dim palabra29 As New Palabra("ame", "Forma conjugada del verbo amar en primera persona del singular del presente de indicativo.")
     Dim palabra30 As New Palabra("amo", "Persona que tiene autoridad y control sobre algo o alguien.")
     Public Nivel1 As New ArrayList From {palabra1, palabra2, palabra3, palabra4, palabra5, palabra6, palabra7, palabra8, palabra9, palabra10, palabra11, palabra12, palabra13, palabra14, palabra15, palabra16, palabra17, palabra18, palabra19, palabra20, palabra21, palabra22, palabra23, palabra24, palabra25, palabra26, palabra27, palabra28, palabra29, palabra30}
-
-
-
-
 
 End Module
